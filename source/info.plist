@@ -2,229 +2,229 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>bundleid</key>
-	<string>com.surrealroad.alfred-reminder</string>
-	<key>category</key>
-	<string>Productivity</string>
-	<key>connections</key>
-	<dict>
-		<key>140C34D0-49CC-4CE2-BA3E-02B3B115F9D8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>9C5CBE5A-08CB-4CEB-BCAE-4C1004408F30</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E5B72F9E-C243-4876-B6BB-4C79008E62D0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>DF47C07B-3990-4258-9ADD-9750C97514B2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>7C61BE1C-BE82-42B1-A275-DDECED8286B9</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>4F5104FF-C724-4808-A868-A22160D0D9E7</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>EDFDD779-8983-498D-A72A-AF66A1753F7C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>B3DC4BDA-18AF-4BC9-B6FD-5AC43239F9A0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>9B74DEE8-5782-4018-AEED-4292720A1DD2</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>140C34D0-49CC-4CE2-BA3E-02B3B115F9D8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>8AD0B8E1-2FF7-48C0-AF64-5BF7C0D23024</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>9C5CBE5A-08CB-4CEB-BCAE-4C1004408F30</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>9E75FCF7-24AE-46AC-869F-BA9DC4B00A00</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>A7051A8F-F219-487F-93B5-7FB38425A3F8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>EDFDD779-8983-498D-A72A-AF66A1753F7C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>B3DC4BDA-18AF-4BC9-B6FD-5AC43239F9A0</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>9B74DEE8-5782-4018-AEED-4292720A1DD2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>EDFDD779-8983-498D-A72A-AF66A1753F7C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>9B74DEE8-5782-4018-AEED-4292720A1DD2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-	</dict>
-	<key>createdby</key>
-	<string>Jack James</string>
-	<key>description</key>
-	<string>Manages reminders in Reminders.app</string>
-	<key>disabled</key>
-	<false/>
-	<key>name</key>
-	<string>Reminders for Alfred 3</string>
-	<key>objects</key>
-	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
+    <key>bundleid</key>
+    <string>com.surrealroad.alfred-reminder</string>
+    <key>category</key>
+    <string>Productivity</string>
+    <key>connections</key>
+    <dict>
+        <key>140C34D0-49CC-4CE2-BA3E-02B3B115F9D8</key>
+        <array>
+            <dict>
+                <key>destinationuid</key>
+                <string>9C5CBE5A-08CB-4CEB-BCAE-4C1004408F30</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>destinationuid</key>
+                <string>E5B72F9E-C243-4876-B6BB-4C79008E62D0</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>destinationuid</key>
+                <string>DF47C07B-3990-4258-9ADD-9750C97514B2</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>destinationuid</key>
+                <string>7C61BE1C-BE82-42B1-A275-DDECED8286B9</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+        </array>
+        <key>4F5104FF-C724-4808-A868-A22160D0D9E7</key>
+        <array>
+            <dict>
+                <key>destinationuid</key>
+                <string>EDFDD779-8983-498D-A72A-AF66A1753F7C</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>destinationuid</key>
+                <string>B3DC4BDA-18AF-4BC9-B6FD-5AC43239F9A0</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+        </array>
+        <key>9B74DEE8-5782-4018-AEED-4292720A1DD2</key>
+        <array>
+            <dict>
+                <key>destinationuid</key>
+                <string>140C34D0-49CC-4CE2-BA3E-02B3B115F9D8</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>destinationuid</key>
+                <string>8AD0B8E1-2FF7-48C0-AF64-5BF7C0D23024</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+        </array>
+        <key>9C5CBE5A-08CB-4CEB-BCAE-4C1004408F30</key>
+        <array>
+            <dict>
+                <key>destinationuid</key>
+                <string>9E75FCF7-24AE-46AC-869F-BA9DC4B00A00</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+        </array>
+        <key>A7051A8F-F219-487F-93B5-7FB38425A3F8</key>
+        <array>
+            <dict>
+                <key>destinationuid</key>
+                <string>EDFDD779-8983-498D-A72A-AF66A1753F7C</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+        </array>
+        <key>B3DC4BDA-18AF-4BC9-B6FD-5AC43239F9A0</key>
+        <array>
+            <dict>
+                <key>destinationuid</key>
+                <string>9B74DEE8-5782-4018-AEED-4292720A1DD2</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+        </array>
+        <key>EDFDD779-8983-498D-A72A-AF66A1753F7C</key>
+        <array>
+            <dict>
+                <key>destinationuid</key>
+                <string>9B74DEE8-5782-4018-AEED-4292720A1DD2</string>
+                <key>modifiers</key>
+                <integer>0</integer>
+                <key>modifiersubtext</key>
+                <string></string>
+                <key>vitoclose</key>
+                <false/>
+            </dict>
+        </array>
+    </dict>
+    <key>createdby</key>
+    <string>Jack James</string>
+    <key>description</key>
+    <string>Manages reminders in Reminders.app</string>
+    <key>disabled</key>
+    <false/>
+    <key>name</key>
+    <string>Reminders for Alfred 3</string>
+    <key>objects</key>
+    <array>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>applescript</key>
+                <string>on alfred_script(q)
   tell application "Reminders" to quit
 end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>9E75FCF7-24AE-46AC-869F-BA9DC4B00A00</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>remind</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>A7051A8F-F219-487F-93B5-7FB38425A3F8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>ObjC.import('Foundation');
+                <key>cachescript</key>
+                <false/>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.action.applescript</string>
+            <key>uid</key>
+            <string>9E75FCF7-24AE-46AC-869F-BA9DC4B00A00</string>
+            <key>version</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>triggerid</key>
+                <string>remind</string>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.trigger.external</string>
+            <key>uid</key>
+            <string>A7051A8F-F219-487F-93B5-7FB38425A3F8</string>
+            <key>version</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>concurrently</key>
+                <false/>
+                <key>escaping</key>
+                <integer>68</integer>
+                <key>script</key>
+                <string>ObjC.import('Foundation');
 ObjC.import('stdlib');
 var window = {} // required for chrono.js to function properly, see https://github.com/wanasit/chrono/issues/34
 
 function run(argv) {
-	var query = argv[0],
-		results = {},
-		jsonResult = {},
-		shouldQuit = !isRemindersRunning();
-		
-	results = parseReminderQuery(query);
-	
+    var query = argv[0],
+        results = {},
+        jsonResult = {},
+        shouldQuit = !isRemindersRunning();
+        
+    results = parseReminderQuery(query);
+    
 
-	env = {"alfredworkflow":{"arg":results['items'][0]['arg'], 
-			"variables": {
-				"reminders":JSON.stringify(results['reminders']),
-				"quitAfter":JSON.stringify(shouldQuit)
-			}
-		}
-	};
-	return JSON.stringify(env);
+    env = {"alfredworkflow":{"arg":results['items'][0]['arg'], 
+            "variables": {
+                "reminders":JSON.stringify(results['reminders']),
+                "quitAfter":JSON.stringify(shouldQuit)
+            }
+        }
+    };
+    return JSON.stringify(env);
 }
 
 // everything below is duplicated from the trigger script filter
 
 function isRemindersRunning() {
-	return Application('Reminders').running();
+    return Application('Reminders').running();
 }
 
 // returns a dictionary corresponding to an Alfred action item
@@ -237,7 +237,7 @@ function isRemindersRunning() {
 // priority: 1|2|3 reminder priority value
 //
 function getAction(options) {
-	var Reminders = Application('Reminders');
+    var Reminders = Application('Reminders');
   var arg = options['arg'],
     valid = options['valid'],
     icon = "",
@@ -267,31 +267,31 @@ function getAction(options) {
         break;
       case 1:
         title += " (low priority)"
-		subtitle += " (low priority)"
+        subtitle += " (low priority)"
         break;
       case 2:
         title += " (medium priority)"
-		subtitle += " (medium priority)"
+        subtitle += " (medium priority)"
         break;
       case 3:
         title += " (high priority)"
-		subtitle += " (high priority)"
+        subtitle += " (high priority)"
         break;
     }
   }
 
-	if(options['reminderList']) {
-		// verify a matching list exists
-		lists = Reminders.lists.whose({name:options['reminderList']})
-		if(lists.length) {
-			subtitle += " in the " + lists[0].name() + " list";
-		}	else {
-			valid = false;
-			title = "Cannot create reminder"
-			subtitle = "No list called \"" + options['reminderList'] + "\" was found in Reminders";
-			// TODO: maybe add a different icon here
-		}
-	}
+    if(options['reminderList']) {
+        // verify a matching list exists
+        lists = Reminders.lists.whose({name:options['reminderList']})
+        if(lists.length) {
+            subtitle += " in the " + lists[0].name() + " list";
+        }   else {
+            valid = false;
+            title = "Cannot create reminder"
+            subtitle = "No list called \"" + options['reminderList'] + "\" was found in Reminders";
+            // TODO: maybe add a different icon here
+        }
+    }
 
   var item = {title:title, arg:arg, valid:valid, subtitle:subtitle, icon:{path:icon}};
   return item;
@@ -338,110 +338,110 @@ function getReminderData(options) {
 }
 
 function parseReminderQuery(query) {
-	var originalQuery = query;
-	var parsedReminder = {}
-	var items = []
-	var reminders = []
+    var originalQuery = query;
+    var parsedReminder = {}
+    var items = []
+    var reminders = []
 
   // list supported applications along with the associated JXA to fetch information
   var supportedReminderApplications = [
-  	{appname:"Address Book", icon:"Address Book.png", reminderText:'Application("Contacts").selection()[0].name()', reminderBody:'"addressbook://" + Application("Contacts").selection()[0].id()'},
-		{appname:"AdobeAcrobat", icon:"AcrobatPro.png", reminderText:'Application("Adobe Acrobat").activeDoc.name()', reminderBody:'var p = Application("Adobe Acrobat").activeDoc.fileAlias().toString(); if(p) "file://" + escape(p)'},
-		{appname:"Chromium", icon:"Chromium.png", reminderText:'Application("Chromium").windows[0].activeTab.title();', reminderBody:'Application("Chromium").windows[0].activeTab.url();'},
-		{appname:"Contacts", icon:"Address Book.png", reminderText:'Application("Contacts").selection()[0].name()', reminderBody:'"addressbook://" + Application("Contacts").selection()[0].id()'},
-		{appname:"Finder", icon:"Finder.png", reminderText:'Application("Finder").selection()[0].name()', reminderBody:'Application("Finder").selection()[0].url()'},
-		{appname:"FoldingText", icon:"App.png", reminderText:'Application("FoldingText").documents[0].name()', reminderBody:'var p = Application("FoldingText").documents[0].path(); if(p) "file://" + escape(p)'},
-		{appname:"Google Chrome", icon:"Chrome.png", reminderText:'Application("Google Chrome").windows[0].activeTab.title();', reminderBody:'Application("Google Chrome").windows[0].activeTab.url();'},
-		{appname:"Google Chrome Canary", icon:"Chrome Canary.png",  reminderText:'Application("Google Chrome Canary").windows[0].activeTab.title();', reminderBody:'Application("Google Chrome Canary").windows[0].activeTab.url();'},
+    {appname:"Address Book", icon:"Address Book.png", reminderText:'Application("Contacts").selection()[0].name()', reminderBody:'"addressbook://" + Application("Contacts").selection()[0].id()'},
+        {appname:"AdobeAcrobat", icon:"AcrobatPro.png", reminderText:'Application("Adobe Acrobat").activeDoc.name()', reminderBody:'var p = Application("Adobe Acrobat").activeDoc.fileAlias().toString(); if(p) "file://" + escape(p)'},
+        {appname:"Chromium", icon:"Chromium.png", reminderText:'Application("Chromium").windows[0].activeTab.title();', reminderBody:'Application("Chromium").windows[0].activeTab.url();'},
+        {appname:"Contacts", icon:"Address Book.png", reminderText:'Application("Contacts").selection()[0].name()', reminderBody:'"addressbook://" + Application("Contacts").selection()[0].id()'},
+        {appname:"Finder", icon:"Finder.png", reminderText:'Application("Finder").selection()[0].name()', reminderBody:'Application("Finder").selection()[0].url()'},
+        {appname:"FoldingText", icon:"App.png", reminderText:'Application("FoldingText").documents[0].name()', reminderBody:'var p = Application("FoldingText").documents[0].path(); if(p) "file://" + escape(p)'},
+        {appname:"Google Chrome", icon:"Chrome.png", reminderText:'Application("Google Chrome").windows[0].activeTab.title();', reminderBody:'Application("Google Chrome").windows[0].activeTab.url();'},
+        {appname:"Google Chrome Canary", icon:"Chrome Canary.png",  reminderText:'Application("Google Chrome Canary").windows[0].activeTab.title();', reminderBody:'Application("Google Chrome Canary").windows[0].activeTab.url();'},
         {appname:"Mailplane 3", icon:"Mailplane 3.png", reminderText:'Application("Mailplane 3").currenttitle()', reminderBody:'Application("MailPlane 3").currentmessagetext()'},
-		{appname:"Mail", icon:"Mail.png",  reminderText:'var m = Application("Mail").selection()[Application("Mail").selection().length-1]; m.subject() + " (From " + m.sender() + ")"', reminderBody:'var m = Application("Mail").selection()[Application("Mail").selection().length-1]; "message://&lt;" + m.messageId() + "&gt;"'},
-  	{appname:"Microsoft PowerPoint", icon:"Powerpoint.png", reminderText:'Application("Microsoft PowerPoint").activePresentation.name()', reminderBody:'var p = Application("Microsoft PowerPoint").activePresentation.fullName(); if(p) "file://" + escape(p)'},
-		{appname:"Microsoft Word", icon:"MSWord.png", reminderText:'Application("Microsoft Word").activeDocument.name()', reminderBody:'var p = Application("Microsoft Word").activeDocument.posixFullName(); if(p) "file://" + escape(p)'},
-  	{appname:"Safari", icon:"Safari.png", reminderText:'Application("Safari").windows[0].currentTab.name();', reminderBody:'Application("Safari").windows[0].currentTab.url();'},
-		{appname:"TextEdit", icon:"TextEdit.png", reminderText:'Application("TextEdit").documents[0].name()', reminderBody:'var p = Application("TextEdit").documents[0].path(); if(p) "file://" + escape(p)'},
-		{appname:"TextMate", icon:"TextMate.png", reminderText:'Application("TextMate").documents[0].name()', reminderBody:'var p = Application("TextMate").documents[0].path(); if(p) "file://" + escape(p)'},
-		{appname:"Vienna", icon:"RSS.png", reminderText:'Application("Vienna").currentArticle().title()', reminderBody:'Application("Vienna").currentArticle().link()'},
-  	{appname:"WebKit", icon:"Safari.png", reminderText:'Application("WebKit").windows[0].currentTab.name();', reminderBody:'Application("WebKit").windows[0].currentTab.url();'},
+        {appname:"Mail", icon:"Mail.png",  reminderText:'var m = Application("Mail").selection()[Application("Mail").selection().length-1]; m.subject() + " (From " + m.sender() + ")"', reminderBody:'var m = Application("Mail").selection()[Application("Mail").selection().length-1]; "message://&lt;" + m.messageId() + "&gt;"'},
+    {appname:"Microsoft PowerPoint", icon:"Powerpoint.png", reminderText:'Application("Microsoft PowerPoint").activePresentation.name()', reminderBody:'var p = Application("Microsoft PowerPoint").activePresentation.fullName(); if(p) "file://" + escape(p)'},
+        {appname:"Microsoft Word", icon:"MSWord.png", reminderText:'Application("Microsoft Word").activeDocument.name()', reminderBody:'var p = Application("Microsoft Word").activeDocument.posixFullName(); if(p) "file://" + escape(p)'},
+    {appname:"Safari", icon:"Safari.png", reminderText:'Application("Safari").windows[0].currentTab.name();', reminderBody:'Application("Safari").windows[0].currentTab.url();'},
+        {appname:"TextEdit", icon:"TextEdit.png", reminderText:'Application("TextEdit").documents[0].name()', reminderBody:'var p = Application("TextEdit").documents[0].path(); if(p) "file://" + escape(p)'},
+        {appname:"TextMate", icon:"TextMate.png", reminderText:'Application("TextMate").documents[0].name()', reminderBody:'var p = Application("TextMate").documents[0].path(); if(p) "file://" + escape(p)'},
+        {appname:"Vienna", icon:"RSS.png", reminderText:'Application("Vienna").currentArticle().title()', reminderBody:'Application("Vienna").currentArticle().link()'},
+    {appname:"WebKit", icon:"Safari.png", reminderText:'Application("WebKit").windows[0].currentTab.name();', reminderBody:'Application("WebKit").windows[0].currentTab.url();'},
   ]
-  	if(! window.chrono) { 
-		//https://github.com/dtinth/JXA-Cookbook/wiki/Importing-Scripts
+    if(! window.chrono) { 
+        //https://github.com/dtinth/JXA-Cookbook/wiki/Importing-Scripts
 
-		//http://www.alfredforum.com/topic/9070-how-to-workflowenvironment-variables/
-		//https://www.alfredapp.com/help/workflows/script-environment-variables/
-		var chronoPath = $.getenv('alfred_preferences') + "/workflows/" + $.getenv('alfred_workflow_uid') + "/chrono.min.js"
+        //http://www.alfredforum.com/topic/9070-how-to-workflowenvironment-variables/
+        //https://www.alfredapp.com/help/workflows/script-environment-variables/
+        var chronoPath = $.getenv('alfred_preferences') + "/workflows/" + $.getenv('alfred_workflow_uid') + "/chrono.min.js"
 
 
-		// uncomment for local testing in script editor
-		//var path = app.pathTo(this);
-		//var workflowFolder =  $.NSString.alloc.initWithUTF8String(path).stringByDeletingLastPathComponent.js + '/';
-		//var chronoPath = workflowFolder + "chrono.min.js"
+        // uncomment for local testing in script editor
+        //var path = app.pathTo(this);
+        //var workflowFolder =  $.NSString.alloc.initWithUTF8String(path).stringByDeletingLastPathComponent.js + '/';
+        //var chronoPath = workflowFolder + "chrono.min.js"
 
-		console.log(chronoPath)
+        console.log(chronoPath)
 
-		var fm = $.NSFileManager.defaultManager;
-		var contents = fm.contentsAtPath(chronoPath); // NSData
-		contents = $.NSString.alloc.initWithDataEncoding(contents, $.NSUTF8StringEncoding);
+        var fm = $.NSFileManager.defaultManager;
+        var contents = fm.contentsAtPath(chronoPath); // NSData
+        contents = $.NSString.alloc.initWithDataEncoding(contents, $.NSUTF8StringEncoding);
 
-		eval(ObjC.unwrap(contents));
-	}
-	
-	// extract list
-	var reminderList = "";
-	// http://regexr.com/3f03r
-	var listRegex = /(.+) in (.+) list$/i
-	var matches = listRegex.exec(query)
-	if(matches &amp;&amp; matches.length == 3) {
-		reminderList = matches[2];
-		query = matches[1];
-	}
+        eval(ObjC.unwrap(contents));
+    }
+    
+    // extract list
+    var reminderList = "";
+    // http://regexr.com/3f03r
+    var listRegex = /(.+) in (.+) list$/i
+    var matches = listRegex.exec(query)
+    if(matches &amp;&amp; matches.length == 3) {
+        reminderList = matches[2];
+        query = matches[1];
+    }
 
-	// extract priority
-	var priority = "";
+    // extract priority
+    var priority = "";
   // test for !, !!, !!! at beginning
   // http://regexr.com/3er7r
   var priorityRegex = /^(!{1,3})\s(.+)/i
-	var matches = priorityRegex.exec(query)
-	if(matches &amp;&amp; matches.length == 3) {
+    var matches = priorityRegex.exec(query)
+    if(matches &amp;&amp; matches.length == 3) {
     priority = matches[1].length;
     query = matches[2];
   } else {
     // test for !, !!, !!! at end
     // http://regexr.com/3er7u
     var priorityRegex = /\s(.+)\s(!{1,3})$/i
-  	var matches = priorityRegex.exec(query)
-  	if(matches &amp;&amp; matches.length == 3) {
+    var matches = priorityRegex.exec(query)
+    if(matches &amp;&amp; matches.length == 3) {
       priority = matches[2].length;
       query = matches[1];
     } else {
       // test for !3, p1, priority 1, etc
-    	// http://regexr.com/3er73
-    	var priorityRegex = /(.+)\s(priority|p|!)\s*([1-3])\s*$/i
-    	var matches = priorityRegex.exec(query)
-    	if(matches &amp;&amp; matches.length == 4) {
-    		priority = matches[3];
-    		query = matches[1];
+        // http://regexr.com/3er73
+        var priorityRegex = /(.+)\s(priority|p|!)\s*([1-3])\s*$/i
+        var matches = priorityRegex.exec(query)
+        if(matches &amp;&amp; matches.length == 4) {
+            priority = matches[3];
+            query = matches[1];
       } else {
         // test for !hi, p med, priority low, etc
-      	// http://regexr.com/3er7c
+        // http://regexr.com/3er7c
         var priorityRegex = /(.+)\s(priority\s+|p\s*|!\s*)(l|lo|low|m|med|medium|h|hi|high)\s*$/i
-      	var matches = priorityRegex.exec(query)
+        var matches = priorityRegex.exec(query)
         if(matches &amp;&amp; matches.length == 4) {
-      		priorityText = matches[3];
+            priorityText = matches[3];
           if(priorityText[0]=="l") priority = 1;
           else if(priorityText[0]=="m") priority = 2;
           else if(priorityText[0]=="h") priority = 3;
-      		query = matches[1];
+            query = matches[1];
         } else {
           // test for hi!, med p, low priority, etc
-        	// http://regexr.com/3er7i
+            // http://regexr.com/3er7i
           var priorityRegex = /(.+)\s(l|lo|low|m|med|medium|h|hi|high)(\s+priority|\s*p|\s*!)\s*$/i
-        	var matches = priorityRegex.exec(query)
+            var matches = priorityRegex.exec(query)
           if(matches &amp;&amp; matches.length == 4) {
-        		priorityText = matches[2];
+                priorityText = matches[2];
             if(priorityText[0]=="l") priority = 1;
             else if(priorityText[0]=="m") priority = 2;
             else if(priorityText[0]=="h") priority = 3;
-        		query = matches[1];
+                query = matches[1];
           }
         }
       }
@@ -463,8 +463,8 @@ function parseReminderQuery(query) {
     var currentApplication = app.properties().name;
     console.log(currentApplication);
     application = supportedReminderApplications.find(function (a) {
-  		return a.appname == currentApplication;
-  	});
+        return a.appname == currentApplication;
+    });
 
     if(!application) {
       // terminate with an unactionable message that current application is not supported
@@ -480,179 +480,183 @@ function parseReminderQuery(query) {
 
   }
 
-	results = window.chrono.parse(query);
-	var now = new Date();
-	
-	for (var i = 0; i &lt; results.length; i++) {
-		resultText = query.replace(results[i].text,'');
-		var d = results[i].start.date(); // Create a Date object
-		// If date is in the past, assume intended date is tomorrow
-		if (d &lt; now) {
-			d.setDate(now.getDate() + 1);
-		}
-		var reminderText = resultText.trim();
-		items.push(getAction({arg:i, valid:true, reminderText:reminderText, date:d, whenText:results[i].text, priority:priority, reminderList:reminderList}));
-		reminders.push(getReminderData({arg:i, reminderText:reminderText, reminderBody:reminderBody, date:d, list:"", priority:priority, application:application, reminderList:reminderList}));
-	}
+    results = window.chrono.parse(query);
+    var now = new Date();
+    
+    for (var i = 0; i &lt; results.length; i++) {
+        // set a default time point that I will never use
+        results[i].start.imply("hour", 23)
+        results[i].start.imply("minute", 08)
+        results[i].start.imply("second", 11)
+        resultText = query.replace(results[i].text,'');
+        var d = results[i].start.date(); // Create a Date object
+        // If date is in the past, assume intended date is tomorrow
+        // if (d &lt; now) {
+        //  d.setDate(now.getDate() + 1);
+        // }
+        var reminderText = resultText.trim();
+        items.push(getAction({arg:i, valid:true, reminderText:reminderText, date:d, whenText:results[i].text, priority:priority, reminderList:reminderList}));
+        reminders.push(getReminderData({arg:i, reminderText:reminderText, reminderBody:reminderBody, date:d, list:"", priority:priority, application:application, reminderList:reminderList}));
+    }
 
-	// always submit non-dated item
-	items.push(getAction({arg:-1, valid:true, reminderText:query, priority:priority, application:application, reminderList:reminderList}));
-	reminders.push(getReminderData({arg:-1, reminderText:query, reminderBody:"", date:"", list:"", priority:priority, application:application, reminderList:reminderList}));
+    // always submit non-dated item
+    items.push(getAction({arg:-1, valid:true, reminderText:query, priority:priority, application:application, reminderList:reminderList}));
+    reminders.push(getReminderData({arg:-1, reminderText:query, reminderBody:"", date:"", list:"", priority:priority, application:application, reminderList:reminderList}));
 
-	parsedReminder['items'] = items;
-	parsedReminder['reminders'] = reminders;
-	
-	return parsedReminder;
+    parsedReminder['items'] = items;
+    parsedReminder['reminders'] = reminders;
+    
+    return parsedReminder;
 }
 
 
 function showHelpItems() {
   var helpItems = [
-  	"do something crazy",
-	"today release the hamsters into the wild",
-	"tomorrow bring about financial ruin upon my enemies",
-	"in 5 minutes drop everything",
-	"in 2 hours laugh out loud in Reminders list",
-	"in 3 days 1 hour pick stuff up off the floor",
-	"24/12/13 to forget everything I know about things in movies",
-	"12 June 15 to come up with some interesting ideas",
-	"31-12-99 23:22 panic about the millennium bug",
-	"at 2pm wait for nothing in particular", 
-	"next thursday at 15.30 ask some difficult questions",
-	"!!! in 2 weeks an important meeting",
-	"thursday have a banana medium priority",
-	"decide what to have for lunch !lo",
-	"make a turkey sandwich p3",
-	"this",
+    "do something crazy",
+    "today release the hamsters into the wild",
+    "tomorrow bring about financial ruin upon my enemies",
+    "in 5 minutes drop everything",
+    "in 2 hours laugh out loud in Reminders list",
+    "in 3 days 1 hour pick stuff up off the floor",
+    "24/12/13 to forget everything I know about things in movies",
+    "12 June 15 to come up with some interesting ideas",
+    "31-12-99 23:22 panic about the millennium bug",
+    "at 2pm wait for nothing in particular", 
+    "next thursday at 15.30 ask some difficult questions",
+    "!!! in 2 weeks an important meeting",
+    "thursday have a banana medium priority",
+    "decide what to have for lunch !lo",
+    "make a turkey sandwich p3",
+    "this",
   ],
-  	parsedReminder = {},
-  	items = [],
-  	reminders = [];
+    parsedReminder = {},
+    items = [],
+    reminders = [];
   
   for (var i = 0; i &lt; helpItems.length; i++) {
-  	var parsedReminder = parseReminderQuery(helpItems[i]);
-	console.log(helpItems[i]);
-	if(parsedReminder['items']) {
-		item = parsedReminder['items'][0];
-		item['title'] = "r " + helpItems[i];
-		item['valid'] = false;
-		items.push(item);
-	}
-	if(parsedReminder['reminders']) {
-		reminders.push(parsedReminder['reminders'][0]);
-	}
+    var parsedReminder = parseReminderQuery(helpItems[i]);
+    console.log(helpItems[i]);
+    if(parsedReminder['items']) {
+        item = parsedReminder['items'][0];
+        item['title'] = "r " + helpItems[i];
+        item['valid'] = false;
+        items.push(item);
+    }
+    if(parsedReminder['reminders']) {
+        reminders.push(parsedReminder['reminders'][0]);
+    }
   }
   
   parsedReminder['items'] = items;
   parsedReminder['reminders'] = reminders;
-	
+    
   return parsedReminder;
  }</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>7</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>EDFDD779-8983-498D-A72A-AF66A1753F7C</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{var:quitAfter}</string>
-				<key>matchcasesensitive</key>
-				<true/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>true</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>9C5CBE5A-08CB-4CEB-BCAE-4C1004408F30</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>variables</key>
-				<dict>
-					<key>defaultList</key>
-					<string></string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>9B74DEE8-5782-4018-AEED-4292720A1DD2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>keyword</key>
-				<string>r</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>Processing request…</string>
-				<key>script</key>
-				<string>ObjC.import('Foundation');
+                <key>scriptargtype</key>
+                <integer>1</integer>
+                <key>scriptfile</key>
+                <string></string>
+                <key>type</key>
+                <integer>7</integer>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.action.script</string>
+            <key>uid</key>
+            <string>EDFDD779-8983-498D-A72A-AF66A1753F7C</string>
+            <key>version</key>
+            <integer>2</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>inputstring</key>
+                <string>{var:quitAfter}</string>
+                <key>matchcasesensitive</key>
+                <true/>
+                <key>matchmode</key>
+                <integer>0</integer>
+                <key>matchstring</key>
+                <string>true</string>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.utility.filter</string>
+            <key>uid</key>
+            <string>9C5CBE5A-08CB-4CEB-BCAE-4C1004408F30</string>
+            <key>version</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>argument</key>
+                <string>{query}</string>
+                <key>variables</key>
+                <dict>
+                    <key>defaultList</key>
+                    <string></string>
+                </dict>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.utility.argument</string>
+            <key>uid</key>
+            <string>9B74DEE8-5782-4018-AEED-4292720A1DD2</string>
+            <key>version</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>alfredfiltersresults</key>
+                <false/>
+                <key>alfredfiltersresultsmatchmode</key>
+                <integer>0</integer>
+                <key>argumenttreatemptyqueryasnil</key>
+                <false/>
+                <key>argumenttrimmode</key>
+                <integer>0</integer>
+                <key>argumenttype</key>
+                <integer>0</integer>
+                <key>escaping</key>
+                <integer>68</integer>
+                <key>keyword</key>
+                <string>r</string>
+                <key>queuedelaycustom</key>
+                <integer>3</integer>
+                <key>queuedelayimmediatelyinitially</key>
+                <true/>
+                <key>queuedelaymode</key>
+                <integer>0</integer>
+                <key>queuemode</key>
+                <integer>2</integer>
+                <key>runningsubtext</key>
+                <string>Processing request…</string>
+                <key>script</key>
+                <string>ObjC.import('Foundation');
 ObjC.import('stdlib');
 var window = {} // required for chrono.js to function properly, see https://github.com/wanasit/chrono/issues/34
 
 function run(argv) {
-	var query = argv[0],
-		results = {},
-		jsonResult = {},
-		shouldQuit = !isRemindersRunning();
-		
-	if(query == "help") {
-		results = showHelpItems();
-	} else {
-		results = parseReminderQuery(query);
-	}
-	
-	jsonResult['items'] = results['items'];
-	jsonResult['variables'] = {
-		"reminders":JSON.stringify(results['reminders']),
-		"quitAfter":JSON.stringify(shouldQuit)
-	};
-	return JSON.stringify(jsonResult);
+    var query = argv[0],
+        results = {},
+        jsonResult = {},
+        shouldQuit = !isRemindersRunning();
+        
+    if(query == "help") {
+        results = showHelpItems();
+    } else {
+        results = parseReminderQuery(query);
+    }
+    
+    jsonResult['items'] = results['items'];
+    jsonResult['variables'] = {
+        "reminders":JSON.stringify(results['reminders']),
+        "quitAfter":JSON.stringify(shouldQuit)
+    };
+    return JSON.stringify(jsonResult);
 }
 
 function isRemindersRunning() {
-	return Application('Reminders').running();
+    return Application('Reminders').running();
 }
 
 // returns a dictionary corresponding to an Alfred action item
@@ -665,7 +669,7 @@ function isRemindersRunning() {
 // priority: 1|2|3 reminder priority value
 //
 function getAction(options) {
-	var Reminders = Application('Reminders');
+    var Reminders = Application('Reminders');
   var arg = options['arg'],
     valid = options['valid'],
     icon = "",
@@ -695,31 +699,31 @@ function getAction(options) {
         break;
       case 1:
         title += " (low priority)"
-		subtitle += " (low priority)"
+        subtitle += " (low priority)"
         break;
       case 2:
         title += " (medium priority)"
-		subtitle += " (medium priority)"
+        subtitle += " (medium priority)"
         break;
       case 3:
         title += " (high priority)"
-		subtitle += " (high priority)"
+        subtitle += " (high priority)"
         break;
     }
   }
 
-	if(options['reminderList']) {
-		// verify a matching list exists
-		lists = Reminders.lists.whose({name:options['reminderList']})
-		if(lists.length) {
-			subtitle += " in the " + lists[0].name() + " list";
-		}	else {
-			valid = false;
-			title = "Cannot create reminder"
-			subtitle = "No list called \"" + options['reminderList'] + "\" was found in Reminders";
-			// TODO: maybe add a different icon here
-		}
-	}
+    if(options['reminderList']) {
+        // verify a matching list exists
+        lists = Reminders.lists.whose({name:options['reminderList']})
+        if(lists.length) {
+            subtitle += " in the " + lists[0].name() + " list";
+        }   else {
+            valid = false;
+            title = "Cannot create reminder"
+            subtitle = "No list called \"" + options['reminderList'] + "\" was found in Reminders";
+            // TODO: maybe add a different icon here
+        }
+    }
 
   var item = {title:title, arg:arg, valid:valid, subtitle:subtitle, icon:{path:icon}};
   return item;
@@ -766,110 +770,110 @@ function getReminderData(options) {
 }
 
 function parseReminderQuery(query) {
-	var originalQuery = query;
-	var parsedReminder = {}
-	var items = []
-	var reminders = []
+    var originalQuery = query;
+    var parsedReminder = {}
+    var items = []
+    var reminders = []
 
   // list supported applications along with the associated JXA to fetch information
   var supportedReminderApplications = [
-  	{appname:"Address Book", icon:"Address Book.png", reminderText:'Application("Contacts").selection()[0].name()', reminderBody:'"addressbook://" + Application("Contacts").selection()[0].id()'},
-		{appname:"AdobeAcrobat", icon:"AcrobatPro.png", reminderText:'Application("Adobe Acrobat").activeDoc.name()', reminderBody:'var p = Application("Adobe Acrobat").activeDoc.fileAlias().toString(); if(p) "file://" + escape(p)'},
-		{appname:"Chromium", icon:"Chromium.png", reminderText:'Application("Chromium").windows[0].activeTab.title();', reminderBody:'Application("Chromium").windows[0].activeTab.url();'},
-		{appname:"Contacts", icon:"Address Book.png", reminderText:'Application("Contacts").selection()[0].name()', reminderBody:'"addressbook://" + Application("Contacts").selection()[0].id()'},
-		{appname:"Finder", icon:"Finder.png", reminderText:'Application("Finder").selection()[0].name()', reminderBody:'Application("Finder").selection()[0].url()'},
-		{appname:"FoldingText", icon:"App.png", reminderText:'Application("FoldingText").documents[0].name()', reminderBody:'var p = Application("FoldingText").documents[0].path(); if(p) "file://" + escape(p)'},
-		{appname:"Google Chrome", icon:"Chrome.png", reminderText:'Application("Google Chrome").windows[0].activeTab.title();', reminderBody:'Application("Google Chrome").windows[0].activeTab.url();'},
-		{appname:"Google Chrome Canary", icon:"Chrome Canary.png",  reminderText:'Application("Google Chrome Canary").windows[0].activeTab.title();', reminderBody:'Application("Google Chrome Canary").windows[0].activeTab.url();'},
+    {appname:"Address Book", icon:"Address Book.png", reminderText:'Application("Contacts").selection()[0].name()', reminderBody:'"addressbook://" + Application("Contacts").selection()[0].id()'},
+        {appname:"AdobeAcrobat", icon:"AcrobatPro.png", reminderText:'Application("Adobe Acrobat").activeDoc.name()', reminderBody:'var p = Application("Adobe Acrobat").activeDoc.fileAlias().toString(); if(p) "file://" + escape(p)'},
+        {appname:"Chromium", icon:"Chromium.png", reminderText:'Application("Chromium").windows[0].activeTab.title();', reminderBody:'Application("Chromium").windows[0].activeTab.url();'},
+        {appname:"Contacts", icon:"Address Book.png", reminderText:'Application("Contacts").selection()[0].name()', reminderBody:'"addressbook://" + Application("Contacts").selection()[0].id()'},
+        {appname:"Finder", icon:"Finder.png", reminderText:'Application("Finder").selection()[0].name()', reminderBody:'Application("Finder").selection()[0].url()'},
+        {appname:"FoldingText", icon:"App.png", reminderText:'Application("FoldingText").documents[0].name()', reminderBody:'var p = Application("FoldingText").documents[0].path(); if(p) "file://" + escape(p)'},
+        {appname:"Google Chrome", icon:"Chrome.png", reminderText:'Application("Google Chrome").windows[0].activeTab.title();', reminderBody:'Application("Google Chrome").windows[0].activeTab.url();'},
+        {appname:"Google Chrome Canary", icon:"Chrome Canary.png",  reminderText:'Application("Google Chrome Canary").windows[0].activeTab.title();', reminderBody:'Application("Google Chrome Canary").windows[0].activeTab.url();'},
         {appname:"Mailplane 3", icon:"Mailplane 3.png", reminderText:'Application("Mailplane 3").currenttitle()', reminderBody:'Application("MailPlane 3").currentmessagetext()'},
-		{appname:"Mail", icon:"Mail.png",  reminderText:'var m = Application("Mail").selection()[Application("Mail").selection().length-1]; m.subject() + " (From " + m.sender() + ")"', reminderBody:'var m = Application("Mail").selection()[Application("Mail").selection().length-1]; "message://&lt;" + m.messageId() + "&gt;"'},
-  	{appname:"Microsoft PowerPoint", icon:"Powerpoint.png", reminderText:'Application("Microsoft PowerPoint").activePresentation.name()', reminderBody:'var p = Application("Microsoft PowerPoint").activePresentation.fullName(); if(p) "file://" + escape(p)'},
-		{appname:"Microsoft Word", icon:"MSWord.png", reminderText:'Application("Microsoft Word").activeDocument.name()', reminderBody:'var p = Application("Microsoft Word").activeDocument.posixFullName(); if(p) "file://" + escape(p)'},
-  	{appname:"Safari", icon:"Safari.png", reminderText:'Application("Safari").windows[0].currentTab.name();', reminderBody:'Application("Safari").windows[0].currentTab.url();'},
-		{appname:"TextEdit", icon:"TextEdit.png", reminderText:'Application("TextEdit").documents[0].name()', reminderBody:'var p = Application("TextEdit").documents[0].path(); if(p) "file://" + escape(p)'},
-		{appname:"TextMate", icon:"TextMate.png", reminderText:'Application("TextMate").documents[0].name()', reminderBody:'var p = Application("TextMate").documents[0].path(); if(p) "file://" + escape(p)'},
-		{appname:"Vienna", icon:"RSS.png", reminderText:'Application("Vienna").currentArticle().title()', reminderBody:'Application("Vienna").currentArticle().link()'},
-  	{appname:"WebKit", icon:"Safari.png", reminderText:'Application("WebKit").windows[0].currentTab.name();', reminderBody:'Application("WebKit").windows[0].currentTab.url();'},
+        {appname:"Mail", icon:"Mail.png",  reminderText:'var m = Application("Mail").selection()[Application("Mail").selection().length-1]; m.subject() + " (From " + m.sender() + ")"', reminderBody:'var m = Application("Mail").selection()[Application("Mail").selection().length-1]; "message://&lt;" + m.messageId() + "&gt;"'},
+    {appname:"Microsoft PowerPoint", icon:"Powerpoint.png", reminderText:'Application("Microsoft PowerPoint").activePresentation.name()', reminderBody:'var p = Application("Microsoft PowerPoint").activePresentation.fullName(); if(p) "file://" + escape(p)'},
+        {appname:"Microsoft Word", icon:"MSWord.png", reminderText:'Application("Microsoft Word").activeDocument.name()', reminderBody:'var p = Application("Microsoft Word").activeDocument.posixFullName(); if(p) "file://" + escape(p)'},
+    {appname:"Safari", icon:"Safari.png", reminderText:'Application("Safari").windows[0].currentTab.name();', reminderBody:'Application("Safari").windows[0].currentTab.url();'},
+        {appname:"TextEdit", icon:"TextEdit.png", reminderText:'Application("TextEdit").documents[0].name()', reminderBody:'var p = Application("TextEdit").documents[0].path(); if(p) "file://" + escape(p)'},
+        {appname:"TextMate", icon:"TextMate.png", reminderText:'Application("TextMate").documents[0].name()', reminderBody:'var p = Application("TextMate").documents[0].path(); if(p) "file://" + escape(p)'},
+        {appname:"Vienna", icon:"RSS.png", reminderText:'Application("Vienna").currentArticle().title()', reminderBody:'Application("Vienna").currentArticle().link()'},
+    {appname:"WebKit", icon:"Safari.png", reminderText:'Application("WebKit").windows[0].currentTab.name();', reminderBody:'Application("WebKit").windows[0].currentTab.url();'},
   ]
-  	if(! window.chrono) { 
-		//https://github.com/dtinth/JXA-Cookbook/wiki/Importing-Scripts
+    if(! window.chrono) { 
+        //https://github.com/dtinth/JXA-Cookbook/wiki/Importing-Scripts
 
-		//http://www.alfredforum.com/topic/9070-how-to-workflowenvironment-variables/
-		//https://www.alfredapp.com/help/workflows/script-environment-variables/
-		var chronoPath = $.getenv('alfred_preferences') + "/workflows/" + $.getenv('alfred_workflow_uid') + "/chrono.min.js"
+        //http://www.alfredforum.com/topic/9070-how-to-workflowenvironment-variables/
+        //https://www.alfredapp.com/help/workflows/script-environment-variables/
+        var chronoPath = $.getenv('alfred_preferences') + "/workflows/" + $.getenv('alfred_workflow_uid') + "/chrono.min.js"
 
 
-		// uncomment for local testing in script editor
-		//var path = app.pathTo(this);
-		//var workflowFolder =  $.NSString.alloc.initWithUTF8String(path).stringByDeletingLastPathComponent.js + '/';
-		//var chronoPath = workflowFolder + "chrono.min.js"
+        // uncomment for local testing in script editor
+        //var path = app.pathTo(this);
+        //var workflowFolder =  $.NSString.alloc.initWithUTF8String(path).stringByDeletingLastPathComponent.js + '/';
+        //var chronoPath = workflowFolder + "chrono.min.js"
 
-		console.log(chronoPath)
+        console.log(chronoPath)
 
-		var fm = $.NSFileManager.defaultManager;
-		var contents = fm.contentsAtPath(chronoPath); // NSData
-		contents = $.NSString.alloc.initWithDataEncoding(contents, $.NSUTF8StringEncoding);
+        var fm = $.NSFileManager.defaultManager;
+        var contents = fm.contentsAtPath(chronoPath); // NSData
+        contents = $.NSString.alloc.initWithDataEncoding(contents, $.NSUTF8StringEncoding);
 
-		eval(ObjC.unwrap(contents));
-	}
-	
-	// extract list
-	var reminderList = "";
-	// http://regexr.com/3f03r
-	var listRegex = /(.+) in (.+) list$/i
-	var matches = listRegex.exec(query)
-	if(matches &amp;&amp; matches.length == 3) {
-		reminderList = matches[2];
-		query = matches[1];
-	}
+        eval(ObjC.unwrap(contents));
+    }
+    
+    // extract list
+    var reminderList = "";
+    // http://regexr.com/3f03r
+    var listRegex = /(.+) in (.+) list$/i
+    var matches = listRegex.exec(query)
+    if(matches &amp;&amp; matches.length == 3) {
+        reminderList = matches[2];
+        query = matches[1];
+    }
 
-	// extract priority
-	var priority = "";
+    // extract priority
+    var priority = "";
   // test for !, !!, !!! at beginning
   // http://regexr.com/3er7r
   var priorityRegex = /^(!{1,3})\s(.+)/i
-	var matches = priorityRegex.exec(query)
-	if(matches &amp;&amp; matches.length == 3) {
+    var matches = priorityRegex.exec(query)
+    if(matches &amp;&amp; matches.length == 3) {
     priority = matches[1].length;
     query = matches[2];
   } else {
     // test for !, !!, !!! at end
     // http://regexr.com/3er7u
     var priorityRegex = /\s(.+)\s(!{1,3})$/i
-  	var matches = priorityRegex.exec(query)
-  	if(matches &amp;&amp; matches.length == 3) {
+    var matches = priorityRegex.exec(query)
+    if(matches &amp;&amp; matches.length == 3) {
       priority = matches[2].length;
       query = matches[1];
     } else {
       // test for !3, p1, priority 1, etc
-    	// http://regexr.com/3er73
-    	var priorityRegex = /(.+)\s(priority|p|!)\s*([1-3])\s*$/i
-    	var matches = priorityRegex.exec(query)
-    	if(matches &amp;&amp; matches.length == 4) {
-    		priority = matches[3];
-    		query = matches[1];
+        // http://regexr.com/3er73
+        var priorityRegex = /(.+)\s(priority|p|!)\s*([1-3])\s*$/i
+        var matches = priorityRegex.exec(query)
+        if(matches &amp;&amp; matches.length == 4) {
+            priority = matches[3];
+            query = matches[1];
       } else {
         // test for !hi, p med, priority low, etc
-      	// http://regexr.com/3er7c
+        // http://regexr.com/3er7c
         var priorityRegex = /(.+)\s(priority\s+|p\s*|!\s*)(l|lo|low|m|med|medium|h|hi|high)\s*$/i
-      	var matches = priorityRegex.exec(query)
+        var matches = priorityRegex.exec(query)
         if(matches &amp;&amp; matches.length == 4) {
-      		priorityText = matches[3];
+            priorityText = matches[3];
           if(priorityText[0]=="l") priority = 1;
           else if(priorityText[0]=="m") priority = 2;
           else if(priorityText[0]=="h") priority = 3;
-      		query = matches[1];
+            query = matches[1];
         } else {
           // test for hi!, med p, low priority, etc
-        	// http://regexr.com/3er7i
+            // http://regexr.com/3er7i
           var priorityRegex = /(.+)\s(l|lo|low|m|med|medium|h|hi|high)(\s+priority|\s*p|\s*!)\s*$/i
-        	var matches = priorityRegex.exec(query)
+            var matches = priorityRegex.exec(query)
           if(matches &amp;&amp; matches.length == 4) {
-        		priorityText = matches[2];
+                priorityText = matches[2];
             if(priorityText[0]=="l") priority = 1;
             else if(priorityText[0]=="m") priority = 2;
             else if(priorityText[0]=="h") priority = 3;
-        		query = matches[1];
+                query = matches[1];
           }
         }
       }
@@ -891,8 +895,8 @@ function parseReminderQuery(query) {
     var currentApplication = app.properties().name;
     console.log(currentApplication);
     application = supportedReminderApplications.find(function (a) {
-  		return a.appname == currentApplication;
-  	});
+        return a.appname == currentApplication;
+    });
 
     if(!application) {
       // terminate with an unactionable message that current application is not supported
@@ -908,194 +912,203 @@ function parseReminderQuery(query) {
 
   }
 
-	results = window.chrono.parse(query);
-	var now = new Date();
-	
-	for (var i = 0; i &lt; results.length; i++) {
-		resultText = query.replace(results[i].text,'');
-		var d = results[i].start.date(); // Create a Date object
-		// If date is in the past, assume intended date is tomorrow
-		if (d &lt; now) {
-			d.setDate(now.getDate() + 1);
-		}
-		var reminderText = resultText.trim();
-		items.push(getAction({arg:i, valid:true, reminderText:reminderText, date:d, whenText:results[i].text, priority:priority, reminderList:reminderList}));
-		reminders.push(getReminderData({arg:i, reminderText:reminderText, reminderBody:reminderBody, date:d, list:"", priority:priority, application:application, reminderList:reminderList}));
-	}
+    results = window.chrono.parse(query);
+    var now = new Date();
+    
+    for (var i = 0; i &lt; results.length; i++) {
+        // set a default time point that I will never use
+        results[i].start.imply("hour", 23)
+        results[i].start.imply("minute", 08)
+        results[i].start.imply("second", 11)
+        resultText = query.replace(results[i].text,'');
+        var d = results[i].start.date(); // Create a Date object
+        // If date is in the past, assume intended date is tomorrow
+        // if (d &lt; now) {
+        //  d.setDate(now.getDate() + 1);
+        // }
+        var reminderText = resultText.trim();
+        items.push(getAction({arg:i, valid:true, reminderText:reminderText, date:d, whenText:results[i].text, priority:priority, reminderList:reminderList}));
+        reminders.push(getReminderData({arg:i, reminderText:reminderText, reminderBody:reminderBody, date:d, list:"", priority:priority, application:application, reminderList:reminderList}));
+    }
 
-	// always submit non-dated item
-	items.push(getAction({arg:-1, valid:true, reminderText:query, priority:priority, application:application, reminderList:reminderList}));
-	reminders.push(getReminderData({arg:-1, reminderText:query, reminderBody:"", date:"", list:"", priority:priority, application:application, reminderList:reminderList}));
+    // always submit non-dated item
+    items.push(getAction({arg:-1, valid:true, reminderText:query, priority:priority, application:application, reminderList:reminderList}));
+    reminders.push(getReminderData({arg:-1, reminderText:query, reminderBody:"", date:"", list:"", priority:priority, application:application, reminderList:reminderList}));
 
-	parsedReminder['items'] = items;
-	parsedReminder['reminders'] = reminders;
-	
-	return parsedReminder;
+    parsedReminder['items'] = items;
+    parsedReminder['reminders'] = reminders;
+    
+    return parsedReminder;
 }
 
 
 function showHelpItems() {
   var helpItems = [
-  	"do something crazy",
-	"today release the hamsters into the wild",
-	"tomorrow bring about financial ruin upon my enemies",
-	"in 5 minutes drop everything",
-	"in 2 hours laugh out loud in Reminders list",
-	"in 3 days 1 hour pick stuff up off the floor",
-	"24/12/13 to forget everything I know about things in movies",
-	"12 June 15 to come up with some interesting ideas",
-	"31-12-99 23:22 panic about the millennium bug",
-	"at 2pm wait for nothing in particular", 
-	"next thursday at 15.30 ask some difficult questions",
-	"!!! in 2 weeks an important meeting",
-	"thursday have a banana medium priority",
-	"decide what to have for lunch !lo",
-	"make a turkey sandwich p3",
-	"this",
+    "do something crazy",
+    "today release the hamsters into the wild",
+    "tomorrow bring about financial ruin upon my enemies",
+    "in 5 minutes drop everything",
+    "in 2 hours laugh out loud in Reminders list",
+    "in 3 days 1 hour pick stuff up off the floor",
+    "24/12/13 to forget everything I know about things in movies",
+    "12 June 15 to come up with some interesting ideas",
+    "31-12-99 23:22 panic about the millennium bug",
+    "at 2pm wait for nothing in particular", 
+    "next thursday at 15.30 ask some difficult questions",
+    "!!! in 2 weeks an important meeting",
+    "thursday have a banana medium priority",
+    "decide what to have for lunch !lo",
+    "make a turkey sandwich p3",
+    "this",
   ],
-  	parsedReminder = {},
-  	items = [],
-  	reminders = [];
+    parsedReminder = {},
+    items = [],
+    reminders = [];
   
   for (var i = 0; i &lt; helpItems.length; i++) {
-  	var parsedReminder = parseReminderQuery(helpItems[i]);
-	console.log(helpItems[i]);
-	if(parsedReminder['items']) {
-		item = parsedReminder['items'][0];
-		item['title'] = "r " + helpItems[i];
-		item['valid'] = false;
-		items.push(item);
-	}
-	if(parsedReminder['reminders']) {
-		reminders.push(parsedReminder['reminders'][0]);
-	}
+    var parsedReminder = parseReminderQuery(helpItems[i]);
+    console.log(helpItems[i]);
+    if(parsedReminder['items']) {
+        item = parsedReminder['items'][0];
+        item['title'] = "r " + helpItems[i];
+        item['valid'] = false;
+        items.push(item);
+    }
+    if(parsedReminder['reminders']) {
+        reminders.push(parsedReminder['reminders'][0]);
+    }
   }
   
   parsedReminder['items'] = items;
   parsedReminder['reminders'] = reminders;
-	
+    
   return parsedReminder;
  }</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Adds an entry to Reminders.app</string>
-				<key>title</key>
-				<string>Add Reminder</string>
-				<key>type</key>
-				<integer>7</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>B3DC4BDA-18AF-4BC9-B6FD-5AC43239F9A0</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Reminders</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>E5B72F9E-C243-4876-B6BB-4C79008E62D0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>function run(argv) {
-	var query = argv[0];
+                <key>scriptargtype</key>
+                <integer>1</integer>
+                <key>scriptfile</key>
+                <string></string>
+                <key>subtext</key>
+                <string>Adds an entry to Reminders.app</string>
+                <key>title</key>
+                <string>Add Reminder</string>
+                <key>type</key>
+                <integer>7</integer>
+                <key>withspace</key>
+                <true/>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.input.scriptfilter</string>
+            <key>uid</key>
+            <string>B3DC4BDA-18AF-4BC9-B6FD-5AC43239F9A0</string>
+            <key>version</key>
+            <integer>3</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>lastpathcomponent</key>
+                <false/>
+                <key>onlyshowifquerypopulated</key>
+                <true/>
+                <key>removeextension</key>
+                <false/>
+                <key>text</key>
+                <string>{query}</string>
+                <key>title</key>
+                <string>Reminders</string>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.output.notification</string>
+            <key>uid</key>
+            <string>E5B72F9E-C243-4876-B6BB-4C79008E62D0</string>
+            <key>version</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>concurrently</key>
+                <false/>
+                <key>escaping</key>
+                <integer>68</integer>
+                <key>script</key>
+                <string>function run(argv) {
+    var query = argv[0];
 
-	ObjC.import('stdlib');
-	var reminders = JSON.parse($.getenv('reminders'));
-	//console.log(reminders);
+    ObjC.import('stdlib');
+    var reminders = JSON.parse($.getenv('reminders'));
+    //console.log(reminders);
 
 
-	// get the actioned item
-	reminderData = reminders.find(function (r) {
-		return r.arg == query;
-	});
-	//console.log(reminderData);
+    // get the actioned item
+    reminderData = reminders.find(function (r) {
+        return r.arg == query;
+    });
+    //console.log(reminderData);
 
-	return createReminder(reminderData, $.getenv('defaultList'));
+    return createReminder(reminderData, $.getenv('defaultList'));
 }
 
 function createReminder(reminderData, defaultList) {
-	var Reminders = Application('Reminders');
-	try {
-		data = {name:reminderData['text']}
-		console.log("Name:" + data['name'])
-		if(reminderData['body']) {
-			data['body'] = reminderData['body'];
-		}
-		if(reminderData['date']) {
-			data['remindMeDate'] = new Date(reminderData['date'])
-			console.log("Date:" + data['date']);
-		}
-		if(reminderData['priority']) {
-			data['priority'] = parseInt(reminderData['priority']);
-		}
-		if(reminderData['list'] &amp;&amp; Reminders.lists.whose({name:reminderData['list']}).length) {
-			// list provided by query
-			reminderList = Reminders.lists.whose({name:reminderData['list']})[0];
-		} else if(defaultList &amp;&amp; Reminders.lists.whose({name:defaultList}).length) {
-			// list provided by worklow variable
-			reminderList = Reminders.lists.whose({name:defaultList})[0];
-		} else {
-			// default list provided by application
-			reminderList = Reminders.defaultList;
-		}
-		//console.log(reminder);
-		reminder = Reminders.Reminder(data);
-		reminderList.reminders.push(reminder);
-		// nb. querying the reminder object at this point causes reminders app to hang for ~15 sec
-		return "Created reminder: " + data['name'];
-	} catch (e) {
-		console.log(e);
-		return e;
-	}
+    var Reminders = Application('Reminders');
+    try {
+        data = {name:reminderData['text']}
+        console.log("Name:" + data['name'])
+        if(reminderData['body']) {
+            data['body'] = reminderData['body'];
+        }
+        if(reminderData['date']) {
+            var date = new Date(reminderData['date'])
+            if (date.getHours() == 23 &amp;&amp; date.getMinutes() == 8 &amp;&amp; date.getSeconds() == 11) {
+               data['alldayDueDate'] = date;
+            } else {
+               data['dueDate'] = date;
+            }
+            console.log("Date:" + data['date']);
+        }
+        if(reminderData['priority']) {
+            data['priority'] = parseInt(reminderData['priority']);
+        }
+        if(reminderData['list'] &amp;&amp; Reminders.lists.whose({name:reminderData['list']}).length) {
+            // list provided by query
+            reminderList = Reminders.lists.whose({name:reminderData['list']})[0];
+        } else if(defaultList &amp;&amp; Reminders.lists.whose({name:defaultList}).length) {
+            // list provided by worklow variable
+            reminderList = Reminders.lists.whose({name:defaultList})[0];
+        } else {
+            // default list provided by application
+            reminderList = Reminders.defaultList;
+        }
+        //console.log(reminder);
+        reminder = Reminders.Reminder(data);
+        reminderList.reminders.push(reminder);
+        // nb. querying the reminder object at this point causes reminders app to hang for ~15 sec
+        return "Created reminder: " + data['name'];
+    } catch (e) {
+        console.log(e);
+        return e;
+    }
 }</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>7</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>140C34D0-49CC-4CE2-BA3E-02B3B115F9D8</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>json</key>
-				<string>{
+                <key>scriptargtype</key>
+                <integer>1</integer>
+                <key>scriptfile</key>
+                <string></string>
+                <key>type</key>
+                <integer>7</integer>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.action.script</string>
+            <key>uid</key>
+            <string>140C34D0-49CC-4CE2-BA3E-02B3B115F9D8</string>
+            <key>version</key>
+            <integer>2</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>json</key>
+                <string>{
   "alfredworkflow" : {
     "arg" : "{query}",
     "config" : {
@@ -1217,23 +1230,23 @@ function createReminder(reminderData, defaultList) {
     }
   }
 }</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.json</string>
-			<key>uid</key>
-			<string>4F5104FF-C724-4808-A868-A22160D0D9E7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>readonly remote_info_plist='https://github.com/surrealroad/alfred-reminders/raw/master/source/info.plist' # URL of remote info.plist
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.utility.json</string>
+            <key>uid</key>
+            <string>4F5104FF-C724-4808-A868-A22160D0D9E7</string>
+            <key>version</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>concurrently</key>
+                <false/>
+                <key>escaping</key>
+                <integer>0</integer>
+                <key>script</key>
+                <string>readonly remote_info_plist='https://github.com/surrealroad/alfred-reminders/raw/master/source/info.plist' # URL of remote info.plist
 readonly workflow_url='https://github.com/surrealroad/alfred-reminders/raw/master/Reminders.alfredworkflow' # URL to directly download workflow or workflow download page
 readonly workflow_type='workflow' # Either 'workflow' if workflow_url points to direct download, or 'page' if it points to download page
 readonly frequency_check='15' # Days between update checks
@@ -1291,59 +1304,59 @@ if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
     touch "${local_info_plist}" # Reset timer by touching local file
   fi # diff
 fi #find</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DF47C07B-3990-4258-9ADD-9750C97514B2</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>Output from Script: '{query}'
+                <key>scriptargtype</key>
+                <integer>0</integer>
+                <key>scriptfile</key>
+                <string></string>
+                <key>type</key>
+                <integer>0</integer>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.action.script</string>
+            <key>uid</key>
+            <string>DF47C07B-3990-4258-9ADD-9750C97514B2</string>
+            <key>version</key>
+            <integer>2</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>argument</key>
+                <string>Output from Script: '{query}'
 Variables: {allvars}</string>
-				<key>cleardebuggertext</key>
-				<false/>
-				<key>processoutputs</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.debug</string>
-			<key>uid</key>
-			<string>8AD0B8E1-2FF7-48C0-AF64-5BF7C0D23024</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>Output from Script: '{query}'
+                <key>cleardebuggertext</key>
+                <false/>
+                <key>processoutputs</key>
+                <true/>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.utility.debug</string>
+            <key>uid</key>
+            <string>8AD0B8E1-2FF7-48C0-AF64-5BF7C0D23024</string>
+            <key>version</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>config</key>
+            <dict>
+                <key>argument</key>
+                <string>Output from Script: '{query}'
 Variables: {allvars}</string>
-				<key>cleardebuggertext</key>
-				<false/>
-				<key>processoutputs</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.debug</string>
-			<key>uid</key>
-			<string>7C61BE1C-BE82-42B1-A275-DDECED8286B9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-	</array>
-	<key>readme</key>
-	<string>alfred-reminders
+                <key>cleardebuggertext</key>
+                <false/>
+                <key>processoutputs</key>
+                <true/>
+            </dict>
+            <key>type</key>
+            <string>alfred.workflow.utility.debug</string>
+            <key>uid</key>
+            <string>7C61BE1C-BE82-42B1-A275-DDECED8286B9</string>
+            <key>version</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>readme</key>
+    <string>alfred-reminders
 ================
 
 This creates a new reminder in Reminders.app
@@ -1502,146 +1515,146 @@ Sunday, 17 March 2013 – You can now specify a date for the reminder. See the e
 Uses AppleScript implementation of the Workflow object class for Alfred 2 (https://github.com/qlassiqa/qWorkflow)
 Uses icons from the Flurry collection by David Lanham / The Icon Factory
 Uses Brati's Lover Property List Library (http://applescript.bratis-lover.net/library/plist/)</string>
-	<key>uidata</key>
-	<dict>
-		<key>140C34D0-49CC-4CE2-BA3E-02B3B115F9D8</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>7</integer>
-			<key>note</key>
-			<string>This actions the selected item, creating a new reminder.</string>
-			<key>xpos</key>
-			<integer>530</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
-		<key>4F5104FF-C724-4808-A868-A22160D0D9E7</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>note</key>
-			<string>TODO
+    <key>uidata</key>
+    <dict>
+        <key>140C34D0-49CC-4CE2-BA3E-02B3B115F9D8</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>7</integer>
+            <key>note</key>
+            <string>This actions the selected item, creating a new reminder.</string>
+            <key>xpos</key>
+            <integer>530</integer>
+            <key>ypos</key>
+            <integer>230</integer>
+        </dict>
+        <key>4F5104FF-C724-4808-A868-A22160D0D9E7</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>3</integer>
+            <key>note</key>
+            <string>TODO
 Understand why this doesn't get passed along</string>
-			<key>xpos</key>
-			<integer>70</integer>
-			<key>ypos</key>
-			<integer>260</integer>
-		</dict>
-		<key>7C61BE1C-BE82-42B1-A275-DDECED8286B9</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>note</key>
-			<string>Show debugger to see output from Run Script</string>
-			<key>xpos</key>
-			<integer>740</integer>
-			<key>ypos</key>
-			<integer>410</integer>
-		</dict>
-		<key>8AD0B8E1-2FF7-48C0-AF64-5BF7C0D23024</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>note</key>
-			<string>Show debugger to see output from Script Filter</string>
-			<key>xpos</key>
-			<integer>540</integer>
-			<key>ypos</key>
-			<integer>410</integer>
-		</dict>
-		<key>9B74DEE8-5782-4018-AEED-4292720A1DD2</key>
-		<dict>
-			<key>note</key>
-			<string>Double-click this to edit default settings.</string>
-			<key>xpos</key>
-			<integer>430</integer>
-			<key>ypos</key>
-			<integer>150</integer>
-		</dict>
-		<key>9C5CBE5A-08CB-4CEB-BCAE-4C1004408F30</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>7</integer>
-			<key>note</key>
-			<string>Decides whether to quit Reminders at the end</string>
-			<key>xpos</key>
-			<integer>740</integer>
-			<key>ypos</key>
-			<integer>110</integer>
-		</dict>
-		<key>9E75FCF7-24AE-46AC-869F-BA9DC4B00A00</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>7</integer>
-			<key>note</key>
-			<string>This action causes Reminders to quit</string>
-			<key>xpos</key>
-			<integer>840</integer>
-			<key>ypos</key>
-			<integer>80</integer>
-		</dict>
-		<key>A7051A8F-F219-487F-93B5-7FB38425A3F8</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>10</integer>
-			<key>note</key>
-			<string>use this trigger to manually provide a query
+            <key>xpos</key>
+            <integer>70</integer>
+            <key>ypos</key>
+            <integer>260</integer>
+        </dict>
+        <key>7C61BE1C-BE82-42B1-A275-DDECED8286B9</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>1</integer>
+            <key>note</key>
+            <string>Show debugger to see output from Run Script</string>
+            <key>xpos</key>
+            <integer>740</integer>
+            <key>ypos</key>
+            <integer>410</integer>
+        </dict>
+        <key>8AD0B8E1-2FF7-48C0-AF64-5BF7C0D23024</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>1</integer>
+            <key>note</key>
+            <string>Show debugger to see output from Script Filter</string>
+            <key>xpos</key>
+            <integer>540</integer>
+            <key>ypos</key>
+            <integer>410</integer>
+        </dict>
+        <key>9B74DEE8-5782-4018-AEED-4292720A1DD2</key>
+        <dict>
+            <key>note</key>
+            <string>Double-click this to edit default settings.</string>
+            <key>xpos</key>
+            <integer>430</integer>
+            <key>ypos</key>
+            <integer>150</integer>
+        </dict>
+        <key>9C5CBE5A-08CB-4CEB-BCAE-4C1004408F30</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>7</integer>
+            <key>note</key>
+            <string>Decides whether to quit Reminders at the end</string>
+            <key>xpos</key>
+            <integer>740</integer>
+            <key>ypos</key>
+            <integer>110</integer>
+        </dict>
+        <key>9E75FCF7-24AE-46AC-869F-BA9DC4B00A00</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>7</integer>
+            <key>note</key>
+            <string>This action causes Reminders to quit</string>
+            <key>xpos</key>
+            <integer>840</integer>
+            <key>ypos</key>
+            <integer>80</integer>
+        </dict>
+        <key>A7051A8F-F219-487F-93B5-7FB38425A3F8</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>10</integer>
+            <key>note</key>
+            <string>use this trigger to manually provide a query
 *only the first result is used*</string>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>80</integer>
-		</dict>
-		<key>B3DC4BDA-18AF-4BC9-B6FD-5AC43239F9A0</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>This handles the parsing of the query into actionable items.</string>
-			<key>xpos</key>
-			<integer>220</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
-		<key>DF47C07B-3990-4258-9ADD-9750C97514B2</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>OneUpdater
+            <key>xpos</key>
+            <integer>30</integer>
+            <key>ypos</key>
+            <integer>80</integer>
+        </dict>
+        <key>B3DC4BDA-18AF-4BC9-B6FD-5AC43239F9A0</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>8</integer>
+            <key>note</key>
+            <string>This handles the parsing of the query into actionable items.</string>
+            <key>xpos</key>
+            <integer>220</integer>
+            <key>ypos</key>
+            <integer>230</integer>
+        </dict>
+        <key>DF47C07B-3990-4258-9ADD-9750C97514B2</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>12</integer>
+            <key>note</key>
+            <string>OneUpdater
 Provides automatic updating</string>
-			<key>xpos</key>
-			<integer>840</integer>
-			<key>ypos</key>
-			<integer>350</integer>
-		</dict>
-		<key>E5B72F9E-C243-4876-B6BB-4C79008E62D0</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>6</integer>
-			<key>xpos</key>
-			<integer>840</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
-		<key>EDFDD779-8983-498D-A72A-AF66A1753F7C</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>10</integer>
-			<key>note</key>
-			<string>TODO
+            <key>xpos</key>
+            <integer>840</integer>
+            <key>ypos</key>
+            <integer>350</integer>
+        </dict>
+        <key>E5B72F9E-C243-4876-B6BB-4C79008E62D0</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>6</integer>
+            <key>xpos</key>
+            <integer>840</integer>
+            <key>ypos</key>
+            <integer>230</integer>
+        </dict>
+        <key>EDFDD779-8983-498D-A72A-AF66A1753F7C</key>
+        <dict>
+            <key>colorindex</key>
+            <integer>10</integer>
+            <key>note</key>
+            <string>TODO
 Reduce code duplication</string>
-			<key>xpos</key>
-			<integer>220</integer>
-			<key>ypos</key>
-			<integer>80</integer>
-		</dict>
-	</dict>
-	<key>variablesdontexport</key>
-	<array/>
-	<key>version</key>
-	<string>74</string>
-	<key>webaddress</key>
-	<string>http://www.surrealroad.com</string>
+            <key>xpos</key>
+            <integer>220</integer>
+            <key>ypos</key>
+            <integer>80</integer>
+        </dict>
+    </dict>
+    <key>variablesdontexport</key>
+    <array/>
+    <key>version</key>
+    <string>74</string>
+    <key>webaddress</key>
+    <string>http://www.surrealroad.com</string>
 </dict>
 </plist>
